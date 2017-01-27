@@ -23,6 +23,10 @@ print('first class: {:.0%}'.format(first_class/total))
 
 # 4
 print('\n4: average age')
+mean = data.Age.mean()
+median = data.Age.median()
+print('age mean: {:.0f}'.format(round(mean)))
+print('age median: {:.0f}'.format(round(median)))
 
 #5
 print('\n5: relatives correlation')
